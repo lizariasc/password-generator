@@ -14,15 +14,17 @@ var generateBtn = document.querySelector("#generate").addEventListener('click', 
 
 function askLength() {
   var length = Number(prompt("Choose a length between 8 and 128 characteres:"));
+  // validates if it is a number between 8 and 128.
   while (isNaN(length) || length < 8 || length > 128) length = Number(prompt("Length must be 8-128 characters. How many characters would you like your password to be?"));
 
+  // If yes, ask for character types to include in the password
   if (isNaN(length) || length > 8 || length <= 128) {
     var uppercase = confirm("Would you like to use uppercase letters?")
     var lowercase = confirm("Would you like to use lowercase letters?")
     var numbers = confirm("Would you like to use numbers?")
     var symbols = confirm("Would you like to use special characters?")
 } 
-
+  // Validate input, if none of them selected, tell the user that at least one character type should be selected
   while (!uppercase && !lowercase && !numbers && !symbols) {
     alert("You must select at least one character type!");
     uppercase = confirm("Would you like to use uppercase letters?");
@@ -30,6 +32,8 @@ function askLength() {
     numbers = confirm("Would you like to use numbers?");
     symbols = confirm("Would you like to use special characters?");
   }
+
+  // Generate password and write it to the #password input 
 
   }
 

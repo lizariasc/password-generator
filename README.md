@@ -5,12 +5,12 @@ The purpose of this project is to provide greater security by building a passwor
 Purpos
 
 ## Built With
-HTML
-CSS
-JavaScript
+- HTML
+- CSS
+- JavaScript
 
 ## Website
 https://lizariasc.github.io/password-generator/
 
 ## Mock up of the Website
-![Mock up](./demo.png "Mock up")
+![Mock up](./develop/demo.png "Mock up")

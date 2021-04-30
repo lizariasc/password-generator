@@ -13,4 +13,4 @@ Purpos
 https://lizariasc.github.io/password-generator/
 
 ## Mock up of the Website
-![Mock up](./develop/demo.png "Mock up")
+![Mock up](./Develop/demo.png "Mock up")

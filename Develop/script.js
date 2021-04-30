@@ -13,8 +13,24 @@ var randomTypes = {
 var generateBtn = document.querySelector("#generate").addEventListener('click', askLength)
 
 function askLength() {
-  var length = prompt("Choose a length between 8 and 128 characteres:");
-  alert(length);
+  var length = Number(prompt("Choose a length between 8 and 128 characteres:"));
+  while (isNaN(length) || length < 8 || length > 128) length = Number(prompt("Length must be 8-128 characters. How many characters would you like your password to be?"));
+
+  if (isNaN(length) || length > 8 || length <= 128) {
+    var uppercase = confirm("Would you like to use uppercase letters?")
+    var lowercase = confirm("Would you like to use lowercase letters?")
+    var numbers = confirm("Would you like to use numbers?")
+    var symbols = confirm("Would you like to use special characters?")
+} 
+
+  while (!uppercase && !lowercase && !numbers && !symbols) {
+    alert("You must select at least one character type!");
+    uppercase = confirm("Would you like to use uppercase letters?");
+    lowercase = confirm("Would you like to use lowercase letters?");
+    numbers = confirm("Would you like to use numbers?");
+    symbols = confirm("Would you like to use special characters?");
+  }
+
   }
 
 // Get references to the #generate element

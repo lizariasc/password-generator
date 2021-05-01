@@ -110,7 +110,23 @@ function generatePassword() {
         options = uppers;
     };
 
-    
+    // Placeholder for length
+    var password = [];
+
+    // Random selection for all variables: 
+    for (var i = 0; i < enter; i++) {
+        var pickoptions = options[Math.floor(Math.random() * options.length)];
+        password.push(pickoptions);
+    }
+    // Joins the password array and converts it to a string
+    var passwordText = password.join("");
+    WritePassword(passwordText);
+    alert(passwordText);
+}
+//Write password to the password input 
+function WritePassword(passwordText) {
+    document.getElementById("password").textContent = passwordText;
+
 }
 
    

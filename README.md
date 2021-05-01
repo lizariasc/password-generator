@@ -15,7 +15,7 @@ https://lizariasc.github.io/password-generator/
 ![Mock up](./Develop/assets/images/demo.png "Mock up")
 
 ## Website functionality example when choosing 8 characters of length 
-![Example](./Develop/asset/images/example.png "Example") 
+![Example](./Develop/assets/images/example.png "Example") 
 
 ## Contrubution
 Liz Arias.

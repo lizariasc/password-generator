@@ -12,10 +12,10 @@ The purpose of this project is to provide greater security by building a passwor
 https://lizariasc.github.io/password-generator/
 
 ## Mock up of the Website
-![Mock up](./Develop/images/demo.png "Mock up")
+![Mock up](./Develop/assets/images/demo.png "Mock up")
 
 ## Website functionality example when choosing 8 characters of length 
-![Example](./Develop/images/example.png "Example") 
+![Example](./Develop/asset/images/example.png "Example") 
 
 ## Contrubution
 Liz Arias.

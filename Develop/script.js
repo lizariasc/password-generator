@@ -47,10 +47,10 @@ function generatePassword() {
 
     } else {
         // If the number is between 8 and 128, I am presented with a series of prompts to choose what character types I want to include
-        uppercase = confirm("Would you like to use Uppercase letters?");
-        lowercase = confirm("Would you like to use Lowercase letters?");
-        numbers = confirm("Would you like to use Numbers?");
-        symbols = confirm("Would you like to use Special characters?");
+        uppercase = confirm("Would you like to use uppercase letters?");
+        lowercase = confirm("Would you like to use lowercase letters?");
+        numbers = confirm("Would you like to use numbers?");
+        symbols = confirm("Would you like to use special characters?");
     };
 
     // If none of them selected, tell the user that at least one character type should be selected

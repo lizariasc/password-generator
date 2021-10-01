@@ -1,4 +1,4 @@
-# Password Generator Challenge #3
+# Password Generator 
 
 ## Description
 The purpose of this project is to provide greater security by building a password generator that creates strong passwords, depending on the criteria selected. It allows you to choose the length of the password (from 8 to 128) and character types. 
